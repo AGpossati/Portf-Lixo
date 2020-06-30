@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/back.jpg) ;
+    background-size: cover;
+}
+.caixa{
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: #EBE6DF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cximg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.caixa h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.caixa h4{
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+}
+.caixa li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.caixa li a{
+    color: #EBE6DF;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.caixa li a:hover .fa-twitter-square{
+    color: steelblue;
+}
+.caixa li a:hover .fa-linkedin-square{
+    color: rgb(5, 30, 78);
+}
+.caixa li a:hover .fa-github{
+    color: rgb(226, 64, 15);
+}
+.sobre{
+    width: 680px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #EBE6DF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sobre h4{
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.sobre button{
+    align-content: center;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 5%;
+    border: 1px #EBE6DF solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.sobre button:hover{
+    background-color: #9E6724;
+}
+.sobre i{
+    cursor: pointer;
+    margin: 6px;
+    font-size: 20px;
+}
